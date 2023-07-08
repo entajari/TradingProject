@@ -1,0 +1,6 @@
+window_roll;current_episode;total_steps;start_date;end_date;config;asset;company_name;frequency;set;initial_wealth;transaction_cost;stg;algo;action_type;reward_type;reward_function;seed;total_reward;total_return;sharpe_ratio
+0;1;374;2019-12-09 18:00:00+00:00;2020-02-27 16:00:00+00:00;default;aapl;Apple;hour;val;1.0;0.0025;sentarl;a2c;discrete;additive;return;42;12.75799999999998;12.75799999999998;0.019840641850659486
+1;1;374;2020-02-27 17:00:00+00:00;2020-05-13 18:00:00+00:00;default;aapl;Apple;hour;val;1.0;0.0025;sentarl;a2c;discrete;additive;return;42;113.51300000000053;113.51300000000053;0.11141777578708578
+2;1;374;2020-05-13 19:00:00+00:00;2020-07-30 14:00:00+00:00;default;aapl;Apple;hour;val;1.0;0.0025;sentarl;a2c;discrete;additive;return;42;55.90700000000005;55.90700000000005;0.06379139439129282
+3;1;374;2020-07-30 15:00:00+00:00;2020-10-14 17:00:00+00:00;default;aapl;Apple;hour;val;1.0;0.0025;sentarl;a2c;discrete;additive;return;42;-273.2910000000004;-273.2910000000004;-0.037721049143176026
+4;1;374;2020-10-14 18:00:00+00:00;2020-12-31 20:00:00+00:00;default;aapl;Apple;hour;val;1.0;0.0025;sentarl;a2c;discrete;additive;return;42;9.303000000000026;9.303000000000026;0.027108814006183674

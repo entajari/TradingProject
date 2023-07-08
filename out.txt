@@ -1,0 +1,530 @@
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+------------------------------------
+| time/                 |          |
+|    fps                | 898      |
+|    iterations         | 100      |
+|    time_elapsed       | 0        |
+|    total_timesteps    | 500      |
+| train/                |          |
+|    entropy_loss       | -1.09    |
+|    explained_variance | 0.55     |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 99       |
+|    policy_loss        | -0.0274  |
+|    value_loss         | 0.00545  |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 938      |
+|    iterations         | 200      |
+|    time_elapsed       | 1        |
+|    total_timesteps    | 1000     |
+| train/                |          |
+|    entropy_loss       | -1.09    |
+|    explained_variance | -0.257   |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 199      |
+|    policy_loss        | -0.778   |
+|    value_loss         | 0.484    |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 976      |
+|    iterations         | 300      |
+|    time_elapsed       | 1        |
+|    total_timesteps    | 1500     |
+| train/                |          |
+|    entropy_loss       | -1.05    |
+|    explained_variance | 0.0317   |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 299      |
+|    policy_loss        | 0.281    |
+|    value_loss         | 0.162    |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 979      |
+|    iterations         | 400      |
+|    time_elapsed       | 2        |
+|    total_timesteps    | 2000     |
+| train/                |          |
+|    entropy_loss       | -0.952   |
+|    explained_variance | -1.26    |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 399      |
+|    policy_loss        | -0.697   |
+|    value_loss         | 1.34     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 976      |
+|    iterations         | 500      |
+|    time_elapsed       | 2        |
+|    total_timesteps    | 2500     |
+| train/                |          |
+|    entropy_loss       | -1.05    |
+|    explained_variance | 0.199    |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 499      |
+|    policy_loss        | -0.644   |
+|    value_loss         | 0.498    |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 919      |
+|    iterations         | 600      |
+|    time_elapsed       | 3        |
+|    total_timesteps    | 3000     |
+| train/                |          |
+|    entropy_loss       | -0.943   |
+|    explained_variance | -0.0513  |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 599      |
+|    policy_loss        | -1.96    |
+|    value_loss         | 7.59     |
+------------------------------------
+Eval num_timesteps=3377, episode_reward=12.76 +/- 0.00
+Episode length: 374.00 +/- 0.00
+------------------------------------
+| eval/                 |          |
+|    mean_ep_length     | 374      |
+|    mean_reward        | 12.8     |
+| time/                 |          |
+|    total_timesteps    | 3377     |
+| train/                |          |
+|    entropy_loss       | -0.83    |
+|    explained_variance | -0.163   |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 675      |
+|    policy_loss        | -0.47    |
+|    value_loss         | 0.615    |
+------------------------------------
+New best mean reward!
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+------------------------------------
+| time/                 |          |
+|    fps                | 873      |
+|    iterations         | 100      |
+|    time_elapsed       | 0        |
+|    total_timesteps    | 500      |
+| train/                |          |
+|    entropy_loss       | -1.05    |
+|    explained_variance | -0.296   |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 99       |
+|    policy_loss        | -1.87    |
+|    value_loss         | 4.36     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 941      |
+|    iterations         | 200      |
+|    time_elapsed       | 1        |
+|    total_timesteps    | 1000     |
+| train/                |          |
+|    entropy_loss       | -1.07    |
+|    explained_variance | 0.089    |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 199      |
+|    policy_loss        | 0.909    |
+|    value_loss         | 1.29     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 972      |
+|    iterations         | 300      |
+|    time_elapsed       | 1        |
+|    total_timesteps    | 1500     |
+| train/                |          |
+|    entropy_loss       | -1.07    |
+|    explained_variance | 0.128    |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 299      |
+|    policy_loss        | -3.35    |
+|    value_loss         | 10.2     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 977      |
+|    iterations         | 400      |
+|    time_elapsed       | 2        |
+|    total_timesteps    | 2000     |
+| train/                |          |
+|    entropy_loss       | -1.06    |
+|    explained_variance | 0.677    |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 399      |
+|    policy_loss        | 2.07     |
+|    value_loss         | 4.29     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 976      |
+|    iterations         | 500      |
+|    time_elapsed       | 2        |
+|    total_timesteps    | 2500     |
+| train/                |          |
+|    entropy_loss       | -1.02    |
+|    explained_variance | 0.032    |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 499      |
+|    policy_loss        | -1.39    |
+|    value_loss         | 6.79     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 965      |
+|    iterations         | 600      |
+|    time_elapsed       | 3        |
+|    total_timesteps    | 3000     |
+| train/                |          |
+|    entropy_loss       | -1.07    |
+|    explained_variance | -0.109   |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 599      |
+|    policy_loss        | -1.41    |
+|    value_loss         | 6.67     |
+------------------------------------
+Eval num_timesteps=3377, episode_reward=113.51 +/- 0.00
+Episode length: 374.00 +/- 0.00
+------------------------------------
+| eval/                 |          |
+|    mean_ep_length     | 374      |
+|    mean_reward        | 114      |
+| time/                 |          |
+|    total_timesteps    | 3377     |
+| train/                |          |
+|    entropy_loss       | -1.08    |
+|    explained_variance | -0.0785  |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 675      |
+|    policy_loss        | 8.42     |
+|    value_loss         | 90.4     |
+------------------------------------
+New best mean reward!
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+------------------------------------
+| time/                 |          |
+|    fps                | 844      |
+|    iterations         | 100      |
+|    time_elapsed       | 0        |
+|    total_timesteps    | 500      |
+| train/                |          |
+|    entropy_loss       | -1.08    |
+|    explained_variance | -0.622   |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 99       |
+|    policy_loss        | 0.436    |
+|    value_loss         | 0.27     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 730      |
+|    iterations         | 200      |
+|    time_elapsed       | 1        |
+|    total_timesteps    | 1000     |
+| train/                |          |
+|    entropy_loss       | -1.07    |
+|    explained_variance | 0.182    |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 199      |
+|    policy_loss        | -4.67    |
+|    value_loss         | 24.3     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 788      |
+|    iterations         | 300      |
+|    time_elapsed       | 1        |
+|    total_timesteps    | 1500     |
+| train/                |          |
+|    entropy_loss       | -1.05    |
+|    explained_variance | -1.07    |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 299      |
+|    policy_loss        | -0.802   |
+|    value_loss         | 0.734    |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 810      |
+|    iterations         | 400      |
+|    time_elapsed       | 2        |
+|    total_timesteps    | 2000     |
+| train/                |          |
+|    entropy_loss       | -1.02    |
+|    explained_variance | 0.0422   |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 399      |
+|    policy_loss        | 2.93     |
+|    value_loss         | 40.1     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 820      |
+|    iterations         | 500      |
+|    time_elapsed       | 3        |
+|    total_timesteps    | 2500     |
+| train/                |          |
+|    entropy_loss       | -0.718   |
+|    explained_variance | 0.11     |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 499      |
+|    policy_loss        | 1.4      |
+|    value_loss         | 0.866    |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 826      |
+|    iterations         | 600      |
+|    time_elapsed       | 3        |
+|    total_timesteps    | 3000     |
+| train/                |          |
+|    entropy_loss       | -0.894   |
+|    explained_variance | 0.0896   |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 599      |
+|    policy_loss        | 5.24     |
+|    value_loss         | 47.5     |
+------------------------------------
+Eval num_timesteps=3377, episode_reward=55.91 +/- 0.00
+Episode length: 374.00 +/- 0.00
+------------------------------------
+| eval/                 |          |
+|    mean_ep_length     | 374      |
+|    mean_reward        | 55.9     |
+| time/                 |          |
+|    total_timesteps    | 3377     |
+| train/                |          |
+|    entropy_loss       | -0.779   |
+|    explained_variance | -0.263   |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 675      |
+|    policy_loss        | -1.02    |
+|    value_loss         | 3.87     |
+------------------------------------
+New best mean reward!
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+------------------------------------
+| time/                 |          |
+|    fps                | 938      |
+|    iterations         | 100      |
+|    time_elapsed       | 0        |
+|    total_timesteps    | 500      |
+| train/                |          |
+|    entropy_loss       | -1.04    |
+|    explained_variance | 0.143    |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 99       |
+|    policy_loss        | 0.411    |
+|    value_loss         | 0.473    |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 985      |
+|    iterations         | 200      |
+|    time_elapsed       | 1        |
+|    total_timesteps    | 1000     |
+| train/                |          |
+|    entropy_loss       | -0.894   |
+|    explained_variance | 0.388    |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 199      |
+|    policy_loss        | 2.44     |
+|    value_loss         | 5.59     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 976      |
+|    iterations         | 300      |
+|    time_elapsed       | 1        |
+|    total_timesteps    | 1500     |
+| train/                |          |
+|    entropy_loss       | -0.893   |
+|    explained_variance | -6.8     |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 299      |
+|    policy_loss        | 0.0479   |
+|    value_loss         | 0.536    |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 977      |
+|    iterations         | 400      |
+|    time_elapsed       | 2        |
+|    total_timesteps    | 2000     |
+| train/                |          |
+|    entropy_loss       | -0.581   |
+|    explained_variance | -0.689   |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 399      |
+|    policy_loss        | -0.221   |
+|    value_loss         | 1.45     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 967      |
+|    iterations         | 500      |
+|    time_elapsed       | 2        |
+|    total_timesteps    | 2500     |
+| train/                |          |
+|    entropy_loss       | -0.845   |
+|    explained_variance | -0.153   |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 499      |
+|    policy_loss        | -2.2     |
+|    value_loss         | 3.37     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 949      |
+|    iterations         | 600      |
+|    time_elapsed       | 3        |
+|    total_timesteps    | 3000     |
+| train/                |          |
+|    entropy_loss       | -0.409   |
+|    explained_variance | -0.0453  |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 599      |
+|    policy_loss        | 0.0552   |
+|    value_loss         | 2.62     |
+------------------------------------
+Eval num_timesteps=3377, episode_reward=-273.29 +/- 0.00
+Episode length: 374.00 +/- 0.00
+------------------------------------
+| eval/                 |          |
+|    mean_ep_length     | 374      |
+|    mean_reward        | -273     |
+| time/                 |          |
+|    total_timesteps    | 3377     |
+| train/                |          |
+|    entropy_loss       | -0.678   |
+|    explained_variance | 0.11     |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 675      |
+|    policy_loss        | 1.06     |
+|    value_loss         | 6.36     |
+------------------------------------
+New best mean reward!
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+------------------------------------
+| time/                 |          |
+|    fps                | 1156     |
+|    iterations         | 100      |
+|    time_elapsed       | 0        |
+|    total_timesteps    | 500      |
+| train/                |          |
+|    entropy_loss       | -1.07    |
+|    explained_variance | -0.297   |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 99       |
+|    policy_loss        | 0.175    |
+|    value_loss         | 0.108    |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 1123     |
+|    iterations         | 200      |
+|    time_elapsed       | 0        |
+|    total_timesteps    | 1000     |
+| train/                |          |
+|    entropy_loss       | -1.07    |
+|    explained_variance | 0.107    |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 199      |
+|    policy_loss        | 1.7      |
+|    value_loss         | 3.8      |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 1053     |
+|    iterations         | 300      |
+|    time_elapsed       | 1        |
+|    total_timesteps    | 1500     |
+| train/                |          |
+|    entropy_loss       | -0.97    |
+|    explained_variance | -0.315   |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 299      |
+|    policy_loss        | -0.909   |
+|    value_loss         | 1.25     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 1003     |
+|    iterations         | 400      |
+|    time_elapsed       | 1        |
+|    total_timesteps    | 2000     |
+| train/                |          |
+|    entropy_loss       | -0.616   |
+|    explained_variance | -0.254   |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 399      |
+|    policy_loss        | -0.132   |
+|    value_loss         | 0.98     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 980      |
+|    iterations         | 500      |
+|    time_elapsed       | 2        |
+|    total_timesteps    | 2500     |
+| train/                |          |
+|    entropy_loss       | -0.88    |
+|    explained_variance | 0.013    |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 499      |
+|    policy_loss        | -3.71    |
+|    value_loss         | 9.3      |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 953      |
+|    iterations         | 600      |
+|    time_elapsed       | 3        |
+|    total_timesteps    | 3000     |
+| train/                |          |
+|    entropy_loss       | -0.929   |
+|    explained_variance | -0.0486  |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 599      |
+|    policy_loss        | 4.26     |
+|    value_loss         | 18.4     |
+------------------------------------
+Eval num_timesteps=3377, episode_reward=9.30 +/- 0.00
+Episode length: 374.00 +/- 0.00
+------------------------------------
+| eval/                 |          |
+|    mean_ep_length     | 374      |
+|    mean_reward        | 9.3      |
+| time/                 |          |
+|    total_timesteps    | 3377     |
+| train/                |          |
+|    entropy_loss       | -0.836   |
+|    explained_variance | -0.806   |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 675      |
+|    policy_loss        | 0.679    |
+|    value_loss         | 3.13     |
+------------------------------------
+New best mean reward!
